@@ -1,0 +1,50 @@
+[
+  {
+    "id": "2b911fd4-ce85-43fb-a5a1-a7de2554d16b",
+    "sku": "TEC-001",
+    "name": "Teclado mecánico",
+    "description": "Teclado compacto con conexión USB y retroiluminación.",
+    "category": "Periféricos",
+    "quantity": 18,
+    "minStock": 5,
+    "unitPrice": 185000,
+    "createdAt": "2026-08-01T13:00:00.000Z",
+    "updatedAt": "2026-08-01T13:00:00.000Z"
+  },
+  {
+    "id": "6af51fb1-582f-4554-b58b-3ea8d36dbdb1",
+    "sku": "TEC-002",
+    "name": "Mouse inalámbrico",
+    "description": "Mouse ergonómico de seis botones y receptor USB.",
+    "category": "Periféricos",
+    "quantity": 4,
+    "minStock": 6,
+    "unitPrice": 89000,
+    "createdAt": "2026-08-02T14:30:00.000Z",
+    "updatedAt": "2026-08-02T14:30:00.000Z"
+  },
+  {
+    "id": "29ddce74-27ac-4be2-96fa-35d34d36bc08",
+    "sku": "ALM-001",
+    "name": "Unidad SSD 1 TB",
+    "description": "Unidad de estado sólido SATA de 2,5 pulgadas.",
+    "category": "Almacenamiento",
+    "quantity": 0,
+    "minStock": 4,
+    "unitPrice": 310000,
+    "createdAt": "2026-08-03T16:15:00.000Z",
+    "updatedAt": "2026-08-03T16:15:00.000Z"
+  },
+  {
+    "id": "5503f87f-b786-444b-9339-3e54d95afabe",
+    "sku": "RED-001",
+    "name": "Router Wi-Fi 6",
+    "description": "Router doble banda para pequeñas oficinas y hogares.",
+    "category": "Redes",
+    "quantity": 9,
+    "minStock": 3,
+    "unitPrice": 275000,
+    "createdAt": "2026-08-04T11:45:00.000Z",
+    "updatedAt": "2026-08-04T11:45:00.000Z"
+  }
+]
