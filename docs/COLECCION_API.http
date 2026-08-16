@@ -1,0 +1,44 @@
+@baseUrl = http://localhost:3000/api
+
+### Estado de la aplicación
+GET {{baseUrl}}/health
+
+### Listar productos
+GET {{baseUrl}}/products
+
+### Filtrar por estado
+GET {{baseUrl}}/products?status=low
+
+### Buscar por texto
+GET {{baseUrl}}/products?q=teclado
+
+### Resumen del inventario
+GET {{baseUrl}}/products/summary
+
+### Crear producto
+POST {{baseUrl}}/products
+Content-Type: application/json
+
+{
+  "sku": "MON-001",
+  "name": "Monitor 24 pulgadas",
+  "description": "Monitor Full HD con conexión HDMI.",
+  "category": "Monitores",
+  "quantity": 7,
+  "minStock": 2,
+  "unitPrice": 620000
+}
+
+### Reemplace ID_PRODUCTO por un identificador devuelto por la API
+GET {{baseUrl}}/products/ID_PRODUCTO
+
+### Actualizar producto
+PUT {{baseUrl}}/products/ID_PRODUCTO
+Content-Type: application/json
+
+{
+  "quantity": 5
+}
+
+### Eliminar producto
+DELETE {{baseUrl}}/products/ID_PRODUCTO
