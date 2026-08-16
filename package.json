@@ -1,0 +1,29 @@
+{
+  "name": "stockflow-inventario",
+  "version": "1.0.0",
+  "description": "Módulo web de gestión de productos e inventario para la evidencia GA7-220501096-AA3-EV01.",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "inventario",
+    "express",
+    "sena",
+    "adso"
+  ],
+  "author": "Andres Avendaño Lopez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.36.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
